@@ -1,0 +1,91 @@
+Quiz 1                                                                  20/2/2020
+In the Hypothetical Machine the contents of memory was as shown. And PC contents is 300. Show the contents of memory and PC , AC , IR after execute three instructions (three fetch cycle and there execute cycle)
+
+ 
+First fetch cycle and execute :
+Memory         CPU Register           
+200 -> 1940     PC -> 200           
+201 -> 5941     AC -> 0003
+202 -> 2941     IR -> 1940 
+940 -> 0003 
+941 -> 0002
+
+Second fetch cycle and execute :
+Memory         CPU Register           
+200 -> 1940     PC -> 201         
+201 -> 5941   AC -> 0005
+202 -> 2941     IR -> 5941
+940 -> 0003 
+941 -> 0002
+
+Third fetch cycle and execute : 
+Memory         CPU Register           
+200 -> 1940     PC -> 202         
+201 -> 5941     AC -> 0005
+202 -> 2941   IR -> 2941
+940 -> 0003 
+941 -> 0005
+
+
+
+
+
+
+
+
+
+
+Show the contents of PC , AC and IR and memory after the execution of each instruction of the following program on the Hypothetical Machine:
+300 LOAD 550
+301 ADD 551
+302 STORE 600
+Solution : 
+ 
+Memory            CPU Register
+
+300 -> 1550      PC -> 300 
+301 -> 5551      AC -> 0003
+302 -> 2600      IR -> 1550
+
+550 -> 0003 
+551 -> 0004 
+
+Memory            CPU Register
+
+300 -> 1550      PC -> 301
+301 -> 5551      AC -> 0007
+302 -> 2600      IR -> 5550
+
+550 -> 0003 
+551 -> 0004 
+
+Memory            CPU Register
+
+300 -> 1550      PC -> 302
+301 -> 5551      AC -> 0007
+302 -> 2600      IR -> 2600
+
+550 -> 0003 
+551 -> 0007 
+
+
+Where the contents of memory at 550 is 3 and at 551 is 4.
+The following figure provide the main characteristics of Hypothetical Machine.
+ 
+
+
+
+
+The hypothetical machine also has two I/O instructions:
+0011 = load AC from I/O
+0111 =store AC to I/O
+In these case, the 12-bi address identifies a particular I/O device. Show the program execution for the following program: 
+1.  Load AC from device 5.
+2. Add contents of memory location 940.
+3. Store AC to device 6.
+Assume that the next value retrieved from device 5 is 3 and that location 940 contains a value of 2.
+Solution : 
+IR -> 3005       AC -> 0003
+IR -> 5940       AC -> 0005
+IR -> 7006       
+Device 6 -> AC
