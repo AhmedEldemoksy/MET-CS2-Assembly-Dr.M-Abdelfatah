@@ -1,0 +1,9 @@
+  MAR ,which is found inside the cpu, It is a temporary storage component in the cpu(central processing unit)
+ which temporarily stores the address(location) of the data sent by the memory  until the instruction for 
+the particular data is executed.
+
+
+But if you give it a wrong address,it will reah to wrong data and make a wrong instruction so make sure 
+that you entered a right data.
+ 
+
