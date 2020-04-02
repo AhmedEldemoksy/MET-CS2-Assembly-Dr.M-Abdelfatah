@@ -1,0 +1,10 @@
+ 1. List the access method on Memory?
+1:Sequential Access: This methods allows memory access in a sequence or in order.
+2:Random Access: Main memories are random access memories, in which each memory location has a unique address. Using this unique address any memory location can be reached in the same amount of time in any order.
+3:Direct Access: In this mode, information is stored in tracks, with each track having a separate read/write head.
+
+2.Write notes about “Word” on Memory?
+A collection of 8 bits is called a byte and (on the majority of computers today) a collection of 4 bytes, or 32 bits, is called a word. Each individual data value in a data set is usually stored using one or more bytes of memory, but at the lowest level, any data stored on a computer is just a large collection of bits.
+
+3. Write notes about Memory hierarchy?
+In computer architecture, the memory hierarchy separates computer storage into a hierarchy based on response time. Since response time, complexity, and capacity are related, the levels may also be distinguished by their performance and controlling technologies.[1] Memory hierarchy affects performance in computer architectural design, algorithm predictions, and lower level programming constructs involving locality of reference.
