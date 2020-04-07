@@ -1,0 +1,25 @@
+User program
+T=10
+
+*****
+Print ISR
+T=5+5=10
+
+****
+Communication ISR
+T=10
+
+****
+
+Disk ISR
+T=10
+****
+
+Priority
+User program 1 &&6
+***
+printer ISR  2 &&5
+***
+Communcation ISR  3
+**
+Disk ISR 4

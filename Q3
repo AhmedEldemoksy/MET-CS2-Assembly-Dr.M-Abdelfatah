@@ -1,0 +1,11 @@
+1.List the access method on Memory? 
+Each memory type, is a collection of numerous memory locations. To access data from any memory, first it              must be located and then the data is read from the memory location. Following are the methods to access information from memory locations:
+
+Random Access: Main memories are random access memories, in which each memory location has a unique address. Using this unique address any memory location can be reached in the same amount of time in any order.
+Sequential Access: This methods allows memory access in a sequence or in order.
+Direct Access: In this mode, information is stored in tracks, with each track having a separate read/write head
+
+2.Write notes about “Word” on Memory?
+In computing, a word is the natural unit of data used by a particular processor design. A word is a fixed-sized piece of data handled as a unit by the instruction set or the hardware of the processor. The number of bits in a word (the word size, word width, or word length) is an important characteristic of any specific processor design or computer architecture.
+3.Write notes about Memory hierarchy?
+What is Memory Hierarchy? The memory in a computer can be divided into five hierarchies based on the speed as well as use. The processor can move from one level to another based on its requirements. The five hierarchies in the memory are registers, cache, main memory, magnetic discs, and magnetic tapes.
